@@ -1,0 +1,23 @@
+<resources>
+    <string name="hello_world">Bienvenido a la aplicación de docentes UCAD</string>
+    <string name="app_name">Consulta Docentes UCAD</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="descripcion">imagen</string>
+    <string name="msjusuario">Mensaje Usuario</string>
+    <string name="title_activity_splash">Consulta Docente UCAD</string>
+    <string name="splastxtmensaje">Usuario</string>
+    <string name="splastxtpassword">Contraseña</string>
+    <string name="repeatpass">Repita la contraseña</string>
+    <string name="splashbtnenviar">Enviar</string>
+    <string name="title_activity_nuevo_usuario">Registrar nuevo usuario</string>
+    <string name="nuevacuenta">Aun no tienes una cuenta? Click aqui</string>
+    <string name="nuevousutxtlabel">REGISTRO DE NUEVO USUARIO</string>
+    <string name="nuevousunombre">Nombres</string>
+    <string name="nuevousuapell">Apellidos</string>
+    <string name="nuevousuemail">Email: ejemplo@gmail.com</string>
+    <string name="edad">Edad</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_activity_display_usuarios">Usuarios Registrados</string>
+    <string name="title_activity_activitylayout_nuevousuario">Nuevo Usuario</string>
+    <string name="title_activity_display_usuarios">DisplayUsuariosActivity</string>
+</resources>

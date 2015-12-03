@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="sv.edu.ucad.appucad.NuevoUsuario">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activitylayout_nuevousuario"
+        tools:context="sv.edu.ucad.appucad.NuevoUsuario"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <TextView android:text="@string/nuevousutxtlabel"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#00528c"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp" />
+            <EditText
+                android:id="@+id/nombreusu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/nuevousunombre"
+                android:textColor="#030303" />
+            <EditText
+                android:id="@+id/apellidouso"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/nuevousuapell"
+                android:textColor="#030303"/>
+            <EditText
+                android:id="@+id/edad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/edad"
+                android:textColor="#030303"/>
+            <EditText
+                android:id="@+id/emailusu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/nuevousuemail"
+                android:inputType="textWebEmailAddress"
+                android:textColor="#030303"/>
+            <EditText
+                android:id="@+id/nickname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/splastxtmensaje"
+                android:textColor="#030303"/>
+            <EditText
+                android:id="@+id/contrasenia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/splastxtpassword"
+                android:inputType="textPassword"
+                android:textColor="#030303"/>
+            <EditText
+                android:id="@+id/contrasenia2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/repeatpass"
+                android:inputType="textPassword"
+                android:textColor="#030303"/>
+            <Button
+                android:id="@+id/guardarusu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/splashbtnenviar"
+                android:layout_gravity="center"
+                android:onClick="onNuevoUsoClick" />
+            <Button
+                android:id="@+id/cancelar"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/cancelar"
+                android:layout_gravity="center"
+                android:onClick="onNuevoUsoClick" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
